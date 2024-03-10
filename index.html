@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="PROJECT7.css">
+    <script type="text/javascript" src="PROJECT7.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="wrapper">
+            <p>Bill Amount</p>
+            <input type="text" id="amount" placeholder="Bill Amount">
+            <p>Service Quality</p>
+            <select id="services">
+                <option selected disabled hidden>Select</option>
+                <option value="0.25">Excellent</option>
+                <option value="0.20">Good</option>
+                <option value="0.15">Average</option>
+                <option value="0.10">Below Average</option>
+                <option value="0.05">Poor</option>
+            </select>
+            <p>Number of People</p>
+            <input type="text" id="persons" placeholder="Number of People">
+            <button id="calculate">Calculate Tip</button>
+        </div>
+
+        <div class="tip">
+            <p>Tip Amount</p>
+            <span id="total">0</span>₹
+            <span id="each">each</span>
+        </div>
+    </div>
+</body>
+
+</html>
