@@ -3,6 +3,10 @@
 Split a tip fairly. Enter the bill amount, pick the service quality, and the number of people — it shows the tip amount per person.
 
 
+## Screenshot
+
+![Demo](screenshots/demo.png)
+
 ## Features
 
 - Bill amount input
